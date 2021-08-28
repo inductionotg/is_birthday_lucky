@@ -23,7 +23,7 @@ function calculateLucky(luckyNumber){
     var add = calculateSum(dob);
     var compare = Number(luckyNumber);
     if (add % compare === 0){
-        output.textContent = "Yippee" + compare+ " " + "is Lucky 🎂";
+        output.textContent = "Yippee"+ " " + compare+ " " + "is Lucky 🎂";
         style();
 
     }
